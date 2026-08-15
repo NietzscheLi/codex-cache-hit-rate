@@ -1,0 +1,17 @@
+{
+  "description": "Display prompt cache hit rate when a Codex turn finishes.",
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$PLUGIN_ROOT/scripts/cache_hit_rate.py\"",
+            "commandWindows": "py -3 \"%PLUGIN_ROOT%\\scripts\\cache_hit_rate.py\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}

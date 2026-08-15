@@ -1,0 +1,33 @@
+{
+  "name": "codex-cache-hit-rate",
+  "version": "0.1.0",
+  "description": "Display prompt cache hit rate after every completed Codex turn.",
+  "author": {
+    "name": "NietzscheLi",
+    "email": "nietzsche.li@outlook.com",
+    "url": "https://github.com/NietzscheLi"
+  },
+  "homepage": "https://github.com/NietzscheLi/codex-cache-hit-rate#readme",
+  "repository": "https://github.com/NietzscheLi/codex-cache-hit-rate",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "prompt-cache",
+    "tokens",
+    "hooks",
+    "observability"
+  ],
+  "interface": {
+    "displayName": "Cache Hit Rate",
+    "shortDescription": "Show prompt cache usage after every Codex turn.",
+    "longDescription": "Adds a Stop hook that summarizes cached and total input tokens for each completed Codex turn.",
+    "developerName": "NietzscheLi",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Observability"
+    ],
+    "defaultPrompt": [
+      "Show cache hit rate after each turn."
+    ]
+  }
+}
